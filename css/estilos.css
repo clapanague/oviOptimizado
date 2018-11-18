@@ -1,0 +1,173 @@
+body {
+	margin: 3px;
+	padding: 3px;
+}
+/*FUENTES*/
+h1{
+	font: 32px verdana;
+	display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+h2,h3, h4, h5, h6{
+	font-family: Cambria;
+}
+h2{
+	font-size: 26px;
+	text-align: center;
+	font: bold;
+}
+h3{
+	font-size: 20px;
+}
+h4{
+	font-size: 16px;
+}
+h5{
+	font-size: 16px;
+}
+h6{
+	font-size: 9.5px;
+	color: white ;
+}
+/*BLOQUE HEADER*/
+#cabecera, #cabeceraIzquierda, #cabeceraDerecha{
+	float: left;
+}
+#cabecera{
+	height: 80px;
+	width: 100%;
+	margin-bottom: 5px;
+}
+#cabeceraDerecha, #cabeceraIzquierda{
+	height: 99px;
+}
+#cabeceraIzquierda{
+	width: 21%;
+}
+#cabeceraDerecha{
+	width: 72%;
+}
+#menuRapido, #tituloOvi{
+	width: 100%;
+	height: 48px;
+}
+#tituloOvi{
+	background-image: url(http://localhost/trabajoBase/objetos/fondoTitulo.png);
+	padding-left: 15px;
+	color: #ffffff;
+	text-align: left;
+}
+#menuRapido{
+	font: 14px verdana;
+	padding: 5px 5px;
+	text-align: right;
+	display: inline-block;
+}
+#tituloOvi, #columnaContenido, #columnaIzquierda, #columnaDerecha, #redes, #piePagina, #contadorVisitas{
+	border: 3px solid #000000;
+}
+/*BLOQUE MENU SUPERIOR*/
+
+/*estilos menu superior*/
+#top_menu{
+	display: inline;
+}
+#top_menu li{
+	float: right;
+	padding-right: 10px;
+}
+/*BLOQUE CONTENIDOS*/
+#contenido{
+	width: 100%;
+}
+#columnaDerecha, #columnaContenido, #columnaIzquierda{
+	height: 494px;
+}
+#columnaIzquierda {
+	float: left;
+	width: 20%;
+	background: #20b2aa;
+}
+#columnaDerecha {
+	margin-left: 10px;
+	width: 20%;
+	display:inline-block;
+	margin-right:15px;
+	overflow : auto;
+}
+#columnaContenido {
+	margin-left: 10px;
+	padding-left: 25px;
+	float:left;
+	background: #8fbc8f;
+	width: 50%;
+}
+/*MENU LATERAL*/
+#menu_lateral {
+  width: auto;
+  font: bold 16px Verdana;
+}
+/* listas a cero */
+.item_principal, .sub_item {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* relleno y color de fondo */
+.item_principal a {
+  display: block;
+  background-color: #20b2aa;
+  text-decoration: none;
+  padding: 10px;
+  color: #000;
+}
+/* desplazamiento */
+.item_principal a:hover {
+    background-color: #C5C5C5;
+}
+/* efecto cuando se pase el cursor y altura maxima*/
+.item_principal li:hover .sub_item {
+  display: block;
+  max-height: 200px;
+}
+/*fondo para sub_items*/
+.sub_item a {
+  background-color: #999;
+}
+/* hover para sub_item */
+.sub_item a:hover {
+  background-color: #666;
+}
+/* estilo sub_item ocultando contenido que desborde*/
+.sub_item {
+  overflow: hidden;
+  max-height: 0;
+  -webkit-transition: all 0.5s ease-out;
+}
+#pie, #piePagina, #contadorVisitas{
+	height: 38px;
+}
+#pie{
+	margin-top: 3px;
+	text-align: center;
+	float: left;
+	width: 100%;
+}
+#piePagina{
+	float: left;
+	width: 84%;
+	background: #000000;
+}
+#contadorVisitas{
+	float: left;
+	width: 10%;
+	background: #000000;
+	text-align: center;
+	display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
