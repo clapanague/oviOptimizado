@@ -27,10 +27,7 @@ h4{
 h5{
 	font-size: 16px;
 }
-h6{
-	font-size: 9.5px;
-	color: white ;
-}
+
 /*BLOQUE HEADER*/
 #cabecera, #cabeceraIzquierda, #cabeceraDerecha{
 	float: left;
@@ -159,6 +156,9 @@ h6{
 	float: left;
 	width: 84%;
 	background: #000000;
+	font-family: Cambria;
+	font-size: 10px;
+	color: white ;
 }
 #contadorVisitas{
 	float: left;
